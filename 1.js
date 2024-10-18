@@ -1,4 +1,7 @@
+
+
 //1. Реалізувати алгоритм: сортування бульбашкою для наступного масиву [1, 2, 5, 4, 10, 3, 13, 11, 100, 8, 15, 20, 19]
+let refuge = [1, 2, 5, 4, 10, 3, 13, 11, 100, 8, 15, 20, 19];
 Bubble()
 // 2. Вивести всі алгоритми цієї лекції і попередньої в функції, викличте функції 
 //лінійний алгоритм пошуку
@@ -19,7 +22,7 @@ VarFunction()
 
 //1. Реалізувати алгоритм: сортування бульбашкою для наступного масиву [1, 2, 5, 4, 10, 3, 13, 11, 100, 8, 15, 20, 19]
 function Bubble() {
-    let refuge = [1, 2, 5, 4, 10, 3, 13, 11, 100, 8, 15, 20, 19];
+   
 
     for (let i = 0; i < refuge.length; i++) {
         for (let j = 0; j < refuge.length; j++) {
@@ -80,7 +83,7 @@ while (StartSearch2 <= EndShearch2) {
     center = Math.round((StartSearch2 + EndShearch2) / 2)
 
     if (linear2[center] === search2) {
-        console.log('урааа');
+        console.log('число знайдено');
         EndShearch2 = StartSearch2
         found2 = true;
     } else if (linear2[center] > search2) {
